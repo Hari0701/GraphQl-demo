@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://hari:hari123@mern.ecwoq.mongodb.net/?retryWrites=true&w=majority"
+  "\\\"
 );
 mongoose.connection.once("open", () => {
   console.log("Connection to database");
